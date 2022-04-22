@@ -1,0 +1,119 @@
+ @media screen and (max-width: 768px) {
+	.small-img {
+		 width: 40%;
+	 }
+	 .large-img {
+		 width: 80%;
+	 }
+	.custom-block {
+		width: 100%;
+		display: block;
+	}
+	.col-container {
+ 		width: 100% !important;
+ 	}
+ 	.col-section {
+ 		width: 100% !important;
+ 	}
+ }
+.btn-margin {
+     margin: 5px 5px 5px 5px;
+}
+.btn-custom {
+     border: 2px solid #fff;
+     color: #666;
+     background-color: transparent;
+}
+.btn-custom:hover {
+	 background-color: #e2e2e2;
+	 border-color: white
+}
+.btn-custom.active, .btn-custom:not(:disabled):not(.disabled):active, .show>.btn-custom.dropdown-toggle {
+	 color: #fff;
+	 background: linear-gradient(40deg, #FFD86F, #FF7A0D);
+}
+.pills-rounded .nav-item .nav-link {
+     border-radius: 10em;
+}
+.col-container {
+     width: 50%;
+     box-sizing: border-box;
+     padding: 0 15px;
+ }
+.col-section {
+     width: 80%;
+     padding-top: 0px;
+     max-width: 1020px;
+     margin: 0 auto;
+     display: flex;
+     flex-wrap: wrap;
+     flex: 1 0 auto;
+ }
+.col-content {
+     line-height: 1.5em;
+     padding-bottom: 30px;
+ }
+.gradient .nav-item .nav-link.active {
+	background: linear-gradient(40deg, #FFD86F, #FF7A0D);
+}
+.box-shadow {
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,.3);
+    margin-top: -160px ;
+    margin-bottom: 30px;
+}
+.ul-disc {
+    list-style-type: disc !important;
+}
+.bg-color{
+	background-color: #ececec;
+}
+.bg-white{
+	background-color: white;
+}
+.accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline-style: none;
+  font-size: 16px;
+  transition: 0.4s;
+}
+
+.accordion:after {
+  content: '\1F7A5';
+  border: none;
+  outline-style: none;
+  font-size: 22px;
+  float: left;
+  margin-top: -2px;
+  margin-bottom: -5px;
+  margin-right: 10px;
+  margin-left: -10px;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+}
+
+.activeaccordion:after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.panel {
+  padding: 0 28px;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
