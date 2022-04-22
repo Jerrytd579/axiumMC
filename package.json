@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Jerrytd579/axiumMC#readme",
   "dependencies": {
+    "express": "^4.17.3",
+    "express-handlebars": "^6.0.5",
     "handlebars": "^4.7.7"
   }
 }
