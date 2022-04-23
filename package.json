@@ -2,7 +2,7 @@
   "name": "axiummc",
   "version": "1.0.0",
   "description": "Server website for Axium Minecraft server",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.17.3",
     "express-handlebars": "^6.0.5",
-    "handlebars": "^4.7.7"
+    "handlebars": "^4.7.7",
+    "path": "^0.12.7"
   }
 }

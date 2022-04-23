@@ -1,0 +1,71 @@
+@media screen and (max-width: 768px) {
+	.page-section h2.section-heading{
+		font-size: 30px !important;
+	}
+	.page-section h5.section-subheading{
+		font-size: 15px !important;
+	}
+	.page-section{
+		padding: 10px 0px 0px 0px !important; 
+	}
+	.ul-indent{
+		padding: 0 0 0 0;
+	}
+}
+.box-shadow {
+    background-color: #fff;
+    box-shadow: 0 0 30px rgba(0,0,0,.3);
+    margin-top: -160px ;
+    margin-bottom: 30px;
+}
+.ul-disc {
+    list-style-type: disc !important;
+}
+.bg-color{
+	background-color: #ececec;
+}
+.bg-white{
+	background-color: white;
+}
+.accordion {
+  color: #444;
+  cursor: pointer;
+  padding: 28px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+  transition: 0.4s;
+}
+
+.accordion:after {
+  content: '\1F7A5';
+  font-size: 25px;
+  float: right;
+  margin-top: -5px;
+  margin-bottom: -5px;
+  -webkit-transition-duration: 0.5s;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition: 0.5s;
+  -webkit-transition-property: -webkit-transform;
+  -moz-transition-property: -moz-transform;
+  -o-transition-property: -o-transform;
+  transition-property: transform;
+}
+
+.activeaccordion:after {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.panel {
+  padding: 0 28px;
+  text-align: left;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease-out;
+}
